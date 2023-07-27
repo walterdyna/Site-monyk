@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.superio{
+    background-color: rgb(247, 164, 12);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.localizacao{
+    background-color: rgb(247, 164, 12);
+    margin-left: 0;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.endereco{
+    margin-left: 200px;
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px;
+}
+.tel{
+    margin-left: 230px;
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+}
+.header{
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+}
+.quemSomos{
+    /* //margin-left: 20px; */
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+    align-items: center;
+}
+.planoDeSaude{
+    /* margin-left: 30px; */
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+}
+.convenios{
+    /* margin-left: 30px; */
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+}
+.contato{
+    /* margin-left: 30px; */
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+}
+.readerContato{
+    /* margin-left: 30px; */
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+    background-color: rgb(247, 164, 12);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.familia {
+    position: relative;
+
+  }
+  
+  .imgWrapper {
+    position: relative;
+  }
+  
+  .imgFamilia {
+    display: block;
+    width: 100vw; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 85vh;
+  }
+  
+  .encontreOPlano {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(247, 164, 12); /* Defina a cor do texto conforme necessário */
+    /* Adicione outros estilos de texto conforme desejado */
+    font-size: 30px;
+    font-weight: 30px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adicione outras sombras conforme desejado */
+  }
+  .h1familia{
+    margin-bottom: 10px;
+  }
+  .pFamilia{
+    margin-bottom: 10px;
+  }
+  .contatoFamilia{
+    font-size: 30px;
+    font-weight: 25px;
+    font-style: 20px; 
+    background-color: rgb(247, 164, 12);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+
+  
+  /* Adicione outros estilos conforme necessário */
+  
