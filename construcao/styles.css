@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 108, 6);
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(233, 108, 6);
+}
+
+.construcao {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.whatsapp{
+    width: 250px;
+    margin-top: -110px;
+    cursor: pointer;
+}
+
+p{
+    margin-left: 120px;
+    margin-top: -30px;
+    color: white;
+}
+
+body{
+    background-color: rgb(233, 108, 6);
+}
+
+@media (max-width: 600px) {
+
+    body, html {
+        background-color: rgb(233, 108, 6);
+    }
+
+    .whatsapp {
+        
+        width: 30%;
+        margin: 100px auto;
+    }
+
+    p {
+       margin: 0;
+    }
+
+    .construcao {
+        padding: 1;
+        width:auto;
+        height: auto;
+        background-color: rgb(233, 108, 6);
+        margin-top: 50%;
+    }
+}
